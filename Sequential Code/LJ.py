@@ -48,7 +48,7 @@ print total_time
 
 
 #write the values to csv file
-my_new_list = open('ljdataset.csv', 'wb')
+my_new_list = open('LJ.csv', 'wb')
 csv_writer = csv.writer(my_new_list)
 csv_writer.writerows(mylist)
 my_new_list.close() 
